@@ -1,0 +1,4 @@
+# made by edu
+@reboot cvlc #boot vlc
+* 10 * * 1-5 killall vlc && export DISPLAY=:1 && cvlc --loop --fullscreen --no-osd /crc/crontab-open/* #open
+* 19 * * 1-5 killall vlc && export DISPLAY=:1 && cvlc --loop --fullscreen --no-osd /crc/crontab-closed/* #close
